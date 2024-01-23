@@ -1,0 +1,1 @@
+const i=()=>({required:e=>e?!0:"required field",isEmail:e=>/^[0-9a-z.-]+@[a-z.-]+\.[a-z]+$/i.test(e)?!0:"invalid email.",valueLength:(e,r)=>e&&e.length>=r?!0:`Password length must be ${r} characters or more`});export{i as u};
